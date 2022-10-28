@@ -1,6 +1,7 @@
 # enable SSI ?
 
+Options Indexes FollowSymLinks Includes
+
 AddType text/html .shtml
 AddHandler server-parsed .shtml
-Options Indexes FollowSymLinks Includes
 AddHandler server-parsed .html .htm
